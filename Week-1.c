@@ -27,20 +27,34 @@
 // to output screen.
 
 
+
+// AIM:
+// Write a C-program to display student basic information
+// (like name, roll number, branch, section, year and college).
+
 #include <stdio.h>
 #include <conio.h>
 
-int main()
+main()
 {
     clrscr();
 
-    printf("Name: Preethi");
-    printf("\nRoll number: 26");
-    printf("\nBranch: CSE");
-    printf("\nSection: 3C");
-    printf("\nYear: 1st");
-    printf("\nCollege name: Pragati Engineering College");
+    printf("Name : Preethi\n");
+    printf("Roll number : 23\n");
+    printf("Branch : CSE\n");
+    printf("Section : E\n");
+    printf("Year : 1st\n");
+    printf("College name : Pragati University\n");
 
     getch();
-    return 0;
 }
+
+
+OUTPUT:
+
+Name : Preethi
+Roll number : 23
+Branch : CSE
+Section : E
+Year : 1st
+College name : Pragati University 
